@@ -1,6 +1,5 @@
-
-* {
-	background-color: black;
+*{
+	border: 1px solid white;
 }
 
 
@@ -20,7 +19,7 @@ body {
 	background-color: black;
 	position: absolute;
 	padding: 10px 20px;
-	margin: 10px 20px 10px 450px;
+	margin: 10px 20px 10px 400px;
 	border: 2px solid white;
 	transition: background-color, color;
 	transition-duration: 0.3s; 
@@ -61,7 +60,7 @@ body {
 /*--------------------------------------------*/
 #EnterName {
 	background-color: black;
-	margin: 10px 10px 10px 40px;
+	margin: 10px 10px 10px 300px;
 	text-align: center;
 	font-weight: bold;
 	display: inline-block;
@@ -70,17 +69,16 @@ body {
 #NameBox {
 	background-color: black;
 	border: none;
-	border: none;
 	color: white;
 	font-size: 3vw;
-	width: 820px;
+	width: 500px;
 }
 /*--------------------------------------------*/
 #EnterFatherName {
 	background-color: black;
 	font-weight: bold;
 	display: inline-block;
-	margin: 10px 10px 10px 20px;
+	margin: 10px 10px 10px 220px;
 	font-size: 3vw;
 }
 #FnameBox {
@@ -96,7 +94,7 @@ body {
 	font-weight: bold;
 	display: inline-block;
 
-	margin: 10px 10px 10px 30px;
+	margin: 10px 10px 10px 50px;
 	font-size: 3vw;
 }
 #AddressBox {
@@ -194,4 +192,5 @@ body {
 
 #maindiv {
 	background-color: black;
+	height: 3000px;
 }
