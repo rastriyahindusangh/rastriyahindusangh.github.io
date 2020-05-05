@@ -1,0 +1,181 @@
+
+
+html {
+	width: 1250px;
+}
+
+body {
+	background-color: black;
+	color: white;
+}
+
+
+#lab {
+	display: inline-block;
+	position: absolute;
+	padding: 10px 20px;
+	margin: 10px 20px 10px 550px;
+	border: 2px solid white;
+	transition: background-color, color;
+	transition-duration: 0.3s; 
+}
+
+#lab:hover {
+	background-color: white;
+	color: black;
+}
+
+
+#printbutton {
+	display: inline-block;
+	padding: 10px 20px;
+	margin: 10px 20px 10px 700px;
+	border: 2px solid white;
+	background-color: black;
+	color: white;
+	transition: background-color, color;
+	transition-duration: 0.3s;
+}
+
+#printbutton:hover {
+	background-color: white;
+	color: black;
+}
+
+
+#symbolleft, #symbolright, #output{
+	width: 404px;
+}
+#output {
+	height: 500px;
+}
+
+
+
+/*--------------------------------------------*/
+#EnterName {
+	background-color: black;
+	margin: 10px 10px 10px 250px;
+	text-align: center;
+	font-weight: bold;
+	display: inline-block;
+	font-size: 3vw;
+}
+#NameBox {
+	background-color: black;
+	border: none;
+	border: none;
+	color: white;
+	font-size: 3vw;
+	width: 820px;
+}
+/*--------------------------------------------*/
+#EnterFatherName {
+	background-color: black;
+	font-weight: bold;
+	display: inline-block;
+	margin: 10px 10px 10px 20px;
+	font-size: 3vw;
+}
+#FnameBox {
+	background-color: black;
+	border: none;
+	color: white;
+	font-size: 3vw;
+	width: 780px;
+}
+/*--------------------------------------------*/
+#EnterAddress {
+	background-color: black;
+	font-weight: bold;
+	display: inline-block;
+	margin: 10px 10px 10px 40px;
+	font-size: 3vw;
+}
+#AddressBox {
+	background-color: black;
+	border: none;
+	color: white;
+	font-size: 3vw;
+	width: 975px;
+}
+/*--------------------------------------------*/
+#EnterDistrict {
+	background-color: black;
+	font-weight: bold;
+	display: inline-block;
+	margin: 10px 10px 10px 230px;
+	font-size: 3vw;
+}
+#DistrictBox {
+	background-color: black;
+	border: none;
+	color: white;
+	font-size: 3vw;
+	width: 500px;
+}
+/*--------------------------------------------*/
+#EnterState {
+	background-color: black;
+	font-weight: bold;
+	display: inline-block;
+	margin: 10px 10px 10px 275px;
+	font-size: 3vw;
+}
+#StateBox {
+	background-color: black;
+	border: none;
+	color: white;
+	font-size: 3vw;
+	width: 500px;
+}
+/*--------------------------------------------*/
+
+#EnterPost {
+	background-color: black;
+	font-weight: bold;
+	display: inline-block;
+	margin: 10px 10px 10px 280px;
+	font-size: 3vw;
+}
+#PostBox {
+	background-color: black;
+	border: none;
+	color: white;
+	font-size: 3vw;
+	width: 500px;
+}
+/*--------------------------------------------*/
+
+#EnterContact {
+	background-color: black;
+	font-weight: bold;
+	display: inline-block;
+	margin: 10px 10px 10px 200px;
+	font-size: 3vw;
+}
+#ContactBox {
+	background-color: black;
+	border: none;
+	color: white;
+	font-size: 3vw;
+	width: 500px;
+}
+/*--------------------------------------------*/
+
+#EnterPin {
+	background-color: black;
+	font-weight: bold;
+	display: inline-block;
+	margin: 10px 10px 10px 235px;
+	font-size: 3vw;
+}
+#PinBox {
+	background-color: black;
+	border: none;
+	color: white;
+	font-size: 3vw;
+	width: 500px;
+}
+/*--------------------------------------------*/
+
