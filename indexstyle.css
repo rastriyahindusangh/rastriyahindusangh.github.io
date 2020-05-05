@@ -1,25 +1,17 @@
-@media print {
-    tr.vendorListHeading {
-        background-color: black !important;
-        -webkit-print-color-adjust: exact; 
-    }
-}
 
-@media print {
-    .vendorListHeading th {
-        color: white !important;
-    }
-}
 
 
 
 html {
 	width: 1100px;
+	
 }
 
 body {
 	background-image: url("background.jpg");
 	color: white;
+	backgrount-color: black;
+	-webkit-print-color-adjust: exact !important;
 }
 
 
@@ -28,7 +20,7 @@ body {
 	background-color: black;
 	position: absolute;
 	padding: 10px 20px;
-	margin: 10px 20px 10px 450px;
+	margin: 10px 20px 10px 420px;
 	border: 2px solid white;
 	transition: background-color, color;
 	transition-duration: 0.3s; 
