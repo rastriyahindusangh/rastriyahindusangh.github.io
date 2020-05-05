@@ -1,7 +1,9 @@
-
+* {
+	background-color: black;
+}
 
 html {
-	width: 1250px;
+	width: 1100px;
 }
 
 body {
@@ -14,7 +16,7 @@ body {
 	display: inline-block;
 	position: absolute;
 	padding: 10px 20px;
-	margin: 10px 20px 10px 550px;
+	margin: 10px 20px 10px 450px;
 	border: 2px solid white;
 	transition: background-color, color;
 	transition-duration: 0.3s; 
@@ -29,7 +31,7 @@ body {
 #printbutton {
 	display: inline-block;
 	padding: 10px 20px;
-	margin: 10px 20px 10px 700px;
+	margin: 10px 20px 10px 600px;
 	border: 2px solid white;
 	background-color: black;
 	color: white;
@@ -44,7 +46,7 @@ body {
 
 
 #symbolleft, #symbolright, #output{
-	width: 404px;
+	width: 350px;
 }
 #output {
 	height: 500px;
@@ -55,7 +57,7 @@ body {
 /*--------------------------------------------*/
 #EnterName {
 	background-color: black;
-	margin: 10px 10px 10px 250px;
+	margin: 10px 10px 10px 40px;
 	text-align: center;
 	font-weight: bold;
 	display: inline-block;
@@ -82,22 +84,29 @@ body {
 	border: none;
 	color: white;
 	font-size: 3vw;
-	width: 780px;
+	width: 575px;
 }
 /*--------------------------------------------*/
 #EnterAddress {
 	background-color: black;
 	font-weight: bold;
 	display: inline-block;
-	margin: 10px 10px 10px 40px;
+
+	margin: 10px 10px 10px 30px;
 	font-size: 3vw;
 }
 #AddressBox {
 	background-color: black;
+	position: relative;
+	display: inline-block;
 	border: none;
 	color: white;
 	font-size: 3vw;
-	width: 975px;
+	width: 825px;
+}
+#Addressspecial {
+	position: relative;
+	bottom: 50px;
 }
 /*--------------------------------------------*/
 #EnterDistrict {
