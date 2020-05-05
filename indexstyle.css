@@ -1,3 +1,16 @@
+@media print {
+    tr.vendorListHeading {
+        background-color: black !important;
+        -webkit-print-color-adjust: exact; 
+    }
+}
+
+@media print {
+    .vendorListHeading th {
+        color: white !important;
+    }
+}
+
 
 
 html {
