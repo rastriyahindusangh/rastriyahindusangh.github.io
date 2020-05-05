@@ -1,5 +1,6 @@
-
-
+* {
+	background-color: black;
+}
 
 html {
 	width: 1100px;
@@ -7,7 +8,6 @@ html {
 
 body {
 	color: white;
-	background-color: black;
 	-webkit-print-color-adjust: exact !important;
 
 }
@@ -85,7 +85,7 @@ body {
 	border: none;
 	color: white;
 	font-size: 3vw;
-	width: 575px;
+	width: 500px;
 }
 /*--------------------------------------------*/
 #EnterAddress {
@@ -191,5 +191,5 @@ body {
 
 #maindiv {
 	background-color: black;
-	padding: 30px 0px 0px 100px;
+	height: inherit;
 }
