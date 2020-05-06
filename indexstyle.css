@@ -77,10 +77,26 @@ body {
 	background-color: black;
 	font-weight: bold;
 	display: inline-block;
-	margin: 10px 10px 10px 180px;
+	margin: 10px 10px 10px 188px;
 	font-size: 3vw;
 }
 #FnameBox {
+	background-color: black;
+	border: none;
+	color: white;
+	font-size: 3vw;
+	width: 500px;
+}
+/*--------------------------------------------*/
+
+#EnterHusbandName {
+	background-color: black;
+	font-weight: bold;
+	display: inline-block;
+	margin: 10px 10px 10px 179px;
+	font-size: 3vw;
+}
+#HnameBox {
 	background-color: black;
 	border: none;
 	color: white;
@@ -93,7 +109,7 @@ body {
 	font-weight: bold;
 	display: inline-block;
 
-	margin: 10px 10px 10px 50px;
+	margin: 10px 10px 10px 260px;
 	font-size: 3vw;
 }
 #AddressBox {
@@ -103,7 +119,7 @@ body {
 	border: none;
 	color: white;
 	font-size: 3vw;
-	width: 825px;
+	width: 550px;
 }
 #Addressspecial {
 	position: relative;
@@ -114,7 +130,7 @@ body {
 	background-color: black;
 	font-weight: bold;
 	display: inline-block;
-	margin: 10px 10px 10px 230px;
+	margin: 10px 10px 10px 280px;
 	font-size: 3vw;
 }
 #DistrictBox {
@@ -129,7 +145,7 @@ body {
 	background-color: black;
 	font-weight: bold;
 	display: inline-block;
-	margin: 10px 10px 10px 275px;
+	margin: 10px 10px 10px 310px;
 	font-size: 3vw;
 }
 #StateBox {
@@ -145,7 +161,7 @@ body {
 	background-color: black;
 	font-weight: bold;
 	display: inline-block;
-	margin: 10px 10px 10px 280px;
+	margin: 10px 10px 10px 325px;
 	font-size: 3vw;
 }
 #PostBox {
@@ -161,7 +177,7 @@ body {
 	background-color: black;
 	font-weight: bold;
 	display: inline-block;
-	margin: 10px 10px 10px 200px;
+	margin: 10px 10px 10px 230px;
 	font-size: 3vw;
 }
 #ContactBox {
@@ -177,7 +193,7 @@ body {
 	background-color: black;
 	font-weight: bold;
 	display: inline-block;
-	margin: 10px 10px 10px 235px;
+	margin: 10px 10px 10px 270px;
 	font-size: 3vw;
 }
 #PinBox {
@@ -188,7 +204,21 @@ body {
 	width: 500px;
 }
 /*--------------------------------------------*/
-
+#EnterParamarshName {
+	background-color: black;
+	font-weight: bold;
+	display: inline-block;
+	margin: 10px 10px 10px 163px;
+	font-size: 3vw;
+}
+#ParamarshNameBox {
+	background-color: black;
+	border: none;
+	color: white;
+	font-size: 3vw;
+	width: 500px;
+}
+/*--------------------------------------------*/
 #maindiv {
 	background-color: black;
 	height: inherit;
