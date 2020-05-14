@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Card Generator</title>
+	<link rel="stylesheet" type="text/css" href="cardgeneratorstyle.css">
+
+	<script type="text/javascript">
+		var loadFile = function(event) {
+			var image = document.getElementById('photo');
+			image.src = URL.createObjectURL(event.target.files[0]);
+			document.getElementById("lab").style.display = "none";
+		};
+		var printweb = function(){
+			document.getElementById("printButton").style.display = "none";
+			document.getElementById("Name").placeholder = "";
+			document.getElementById("Post").placeholder = "";
+			document.getElementById("District").placeholder = "";
+			document.getElementById("number").placeholder = "";
+			document.getElementById("mail").placeholder = "";
+			document.getElementById("AddressBox").placeholder = "";
+			document.getElementById("date").placeholder = "";
+			window.print();
+		}
+	</script>
+</head>
+<body>
+	<div id = "maindivision">
+		<button id = "printButton" onclick="printweb()">Print Pdf</button>
+		<input type="file"  accept="image/*" name="image" id="file" onchange="loadFile(event)" style="display: none;">
+		<label for="file" style="cursor: pointer;" id="lab">Upload Image</label>
+		<img id = "photo">
+		<img id = "sign" src = "signimage.png">
+		<span id = "registrationNumber">REGISTRATION NO 3347/18</span>
+		<input type="text" name="Name" placeholder="Name" id = "Name">
+		<input type="text" name="Post" placeholder="Post" id = "Post">
+		<input type="text" name="district" placeholder="District - State" id = "District">
+
+		<input type="text" name="number" placeholder="Mobile Number" id = "number">
+		<input type="text" name="mail" placeholder="Enter Detail" id = "mail">
+		<textarea name="address" rows="5" cols="30" placeholder="Enter Address" id = "AddressBox"></textarea>
+		<img src="dinank.jpeg" id = "dinank">
+		<input type="text" name="date" placeholder="Date" id = "date">
+		<img src="vaidh.jpeg" id = "vaidh">
+	</div>
+</body>
+</html>
