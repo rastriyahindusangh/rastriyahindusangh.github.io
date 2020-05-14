@@ -1,240 +1,183 @@
-* {
-	background-color: black;
-}
-
-html {
-	width: 1100px;
-}
 
 body {
-	color: white;
+	color: black;
 	-webkit-print-color-adjust: exact !important;
 
 }
 
+body, html {
+	background-color: white;
+	width: 1100px;
+	margin: 0px;
+}
 
 #lab {
-	display: inline-block;
+	color: white;
 	background-color: black;
+	font-family: arial;
+	font-size: 20px;
 	position: absolute;
+	top: 20px;
+	left: 30px;
+	border-style: 2px solid black;
+	border-radius: 0px;
 	padding: 10px 20px;
-	margin: 10px 20px 10px 400px;
-	border: 2px solid white;
-	transition: background-color, color;
-	transition-duration: 0.3s; 
+	transition: background-color, color, border-radius;
+	transition-duration: 0.3s;
 }
 
 #lab:hover {
 	background-color: white;
 	color: black;
+	border-radius: 20px;
 }
 
-
-#printbutton {
-	display: inline-block;
-	padding: 10px 20px;
-	margin: 10px 20px 10px 600px;
-	border: 2px solid white;
-	background-color: black;
+#printButton {
 	color: white;
-	transition: background-color, color;
+	background-color: black;
+	font-family: arial;
+	font-size: 19px;
+	position: absolute;
+	top: 18px;
+	left: 200px;
+	border-width: 2px;
+	border-color: black;
+	border-style: solid;
+	border-radius: 0px;
+	padding: 12px 20px;
+	transition: background-color, color, border-radius;
 	transition-duration: 0.3s;
 }
-
-#printbutton:hover {
+#printButton:hover {
 	background-color: white;
 	color: black;
-}
-
-
-#symbolleft, #symbolright, #output{
-	width: 350px;
-}
-#output {
-	height: 500px;
+	border-radius: 20px;
 }
 
 
 
-/*--------------------------------------------*/
-#EnterName {
+#maindivision {
+	width: 1000px;
+	height: 637px;
+	background-image: url("blankcard.jpeg");
+	background-repeat: repeat-y;
 	background-color: black;
-	margin: 10px 10px 10px 300px;
-	text-align: center;
-	font-weight: bold;
-	display: inline-block;
-	font-size: 3vw;
 }
-#NameBox {
-	background-color: black;
+#photo {
+	background-color: red;
+	width: 170px;
+	height: 225px;
+	position: absolute;
+	left: 425px;
+	top: 263px;
+}
+#sign {
+	position: absolute;
+	width: 170px;
+	height: 100px;
+	left: 422px;
+	top: 450px;
+}
+
+#registrationNumber{
+	font-family: arial;
+	font-size: 40px;
+	position: absolute;
+	left: 465px;
+	top: 40px;
+}
+
+#Name {
+	background-color: transparent;
 	border: none;
-	color: white;
-	font-size: 3vw;
-	width: 500px;
-}
-/*--------------------------------------------*/
-#EnterFatherName {
-	background-color: black;
-	font-weight: bold;
+	color: black;
 	display: inline-block;
-	margin: 10px 10px 10px 178px;
-	font-size: 3vw;
-}
-#FnameBox {
-	background-color: black;
-	border: none;
-	color: white;
-	font-size: 3vw;
+	position: absolute;
 	width: 500px;
+	left: 480px;
+	top: 95px;
+	font-size: 35px;
 }
-/*--------------------------------------------*/
 
-#EnterHusbandName {
-	background-color: black;
-	font-weight: bold;
-	display: inline-block;
-	margin: 10px 10px 10px 169px;
-	font-size: 3vw;
-}
-#HnameBox {
-	background-color: black;
+#Post {
+	background-color: transparent;
 	border: none;
-	color: white;
-	font-size: 3vw;
-	width: 500px;
-}
-/*--------------------------------------------*/
-#EnterAddress {
-	background-color: black;
-	font-weight: bold;
+	color: black;
 	display: inline-block;
+	position: absolute;
+	left: 480px;
+	top: 140px;
+	font-size: 35px;
+}
 
-	margin: 10px 10px 10px 260px;
-	font-size: 3vw;
+#District {
+	background-color: transparent;
+	border: none;
+	color: black;
+	display: inline-block;
+	position: absolute;
+	left: 480px;
+	top: 180px;
+	font-size: 35px;
+}
+
+#number {
+	background-color: transparent;
+	border: none;
+	color: black;
+	display: inline-block;
+	position: absolute;
+	left: 650px;
+	top: 265px;
+	font-size: 35px;
+	width: 300px;
+}
+#mail {
+	background-color: transparent;
+	border: none;
+	color: black;
+	display: inline-block;
+	position: absolute;
+	left: 650px;
+	top: 336px;
+	font-size: 35px;
+	width: 300px;
 }
 #AddressBox {
-	background-color: black;
-	position: relative;
-	display: inline-block;
+	background-color: transparent;
 	border: none;
-	color: white;
-	font-size: 3vw;
-	width: 550px;
-}
-#Addressspecial {
-	position: relative;
-	bottom: 50px;
-}
-/*--------------------------------------------*/
-#EnterDistrict {
-	background-color: black;
-	font-weight: bold;
+	color: black;
 	display: inline-block;
-	margin: 10px 10px 10px 280px;
-	font-size: 3vw;
+	position: absolute;
+	left: 650px;
+	top: 396px;
+	font-size: 35px;
+	width: 300px;
+	font-family: arial;
 }
-#DistrictBox {
-	background-color: black;
-	border: none;
-	color: white;
-	font-size: 3vw;
-	width: 500px;
-}
-/*--------------------------------------------*/
-#EnterState {
-	background-color: black;
-	font-weight: bold;
-	display: inline-block;
-	margin: 10px 10px 10px 310px;
-	font-size: 3vw;
-}
-#StateBox {
-	background-color: black;
-	border: none;
-	color: white;
-	font-size: 3vw;
-	width: 500px;
-}
-/*--------------------------------------------*/
 
-#EnterPost {
-	background-color: black;
-	font-weight: bold;
+#dinank {
 	display: inline-block;
-	margin: 10px 10px 10px 330px;
-	font-size: 3vw;
+	position: absolute;
+	left: 470px;
+	top: 550px;
 }
-#PostBox {
-	background-color: black;
-	border: none;
-	color: white;
-	font-size: 3vw;
-	width: 500px;
-}
-/*--------------------------------------------*/
 
-#EnterContact {
-	background-color: black;
-	font-weight: bold;
-	display: inline-block;
-	margin: 10px 10px 10px 230px;
-	font-size: 3vw;
-}
-#ContactBox {
-	background-color: black;
+#date {
+	background-color: transparent;
 	border: none;
-	color: white;
-	font-size: 3vw;
-	width: 500px;
+	color: black;
+	display: inline-block;
+	position: absolute;
+	left: 605px;
+	top: 560px;
+	font-size: 37px;
+	width: 230px;
 }
-/*--------------------------------------------*/
 
-#EnterPin {
-	background-color: black;
-	font-weight: bold;
+#vaidh {
 	display: inline-block;
-	margin: 10px 10px 10px 270px;
-	font-size: 3vw;
-}
-#PinBox {
-	background-color: black;
-	border: none;
-	color: white;
-	font-size: 3vw;
-	width: 500px;
-}
-/*--------------------------------------------*/
-#EnterParamarshName {
-	background-color: black;
-	font-weight: bold;
-	display: inline-block;
-	margin: 10px 10px 10px 153px;
-	font-size: 3vw;
-}
-#ParamarshNameBox {
-	background-color: black;
-	border: none;
-	color: white;
-	font-size: 3vw;
-	width: 500px;
-}
-/*--------------------------------------------*/
-#EnterNiyuktikartaName {
-	background-color: black;
-	font-weight: bold;
-	display: inline-block;
-	margin: 10px 10px 10px 130px;
-	font-size: 3vw;
-}
-#NiyuktikartaNameBox {
-	background-color: black;
-	border: none;
-	color: white;
-	font-size: 3vw;
-	width: 500px;
-}
-/*--------------------------------------------*/
-#maindiv {
-	background-color: black;
-	height: inherit;
+	position: absolute;
+	left: 836px;
+	top: 555px;
 }
