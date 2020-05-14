@@ -219,6 +219,21 @@ body {
 	width: 500px;
 }
 /*--------------------------------------------*/
+#EnterNiyuktikartaName {
+	background-color: black;
+	font-weight: bold;
+	display: inline-block;
+	margin: 10px 10px 10px 130px;
+	font-size: 3vw;
+}
+#NiyuktikartaNameBox {
+	background-color: black;
+	border: none;
+	color: white;
+	font-size: 3vw;
+	width: 500px;
+}
+/*--------------------------------------------*/
 #maindiv {
 	background-color: black;
 	height: inherit;
