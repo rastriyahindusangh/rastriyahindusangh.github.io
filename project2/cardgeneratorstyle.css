@@ -10,6 +10,8 @@ body, html {
 #lab {
 	color: white;
 	background-color: black;
+	font-family: arial;
+	font-size: 20px;
 	position: absolute;
 	top: 20px;
 	left: 30px;
@@ -29,8 +31,10 @@ body, html {
 #printButton {
 	color: white;
 	background-color: black;
+	font-family: arial;
+	font-size: 19px;
 	position: absolute;
-	top: 20px;
+	top: 18px;
 	left: 200px;
 	border-width: 2px;
 	border-color: black;
@@ -48,12 +52,7 @@ body, html {
 
 
 
-#maindivision {
-	width: 1000px;
-	height: 637px;
-	background-image: url("blankcard.jpeg");
-	background-repeat: repeat-y;
-}
+
 #photo {
 	background-color: red;
 	width: 170px;
@@ -151,7 +150,7 @@ body, html {
 	display: inline-block;
 	position: absolute;
 	left: 470px;
-	top: 550px;
+	top: 555px;
 }
 
 #date {
@@ -161,7 +160,7 @@ body, html {
 	display: inline-block;
 	position: absolute;
 	left: 605px;
-	top: 560px;
+	top: 565px;
 	font-size: 37px;
 	width: 230px;
 }
@@ -170,5 +169,11 @@ body, html {
 	display: inline-block;
 	position: absolute;
 	left: 836px;
-	top: 555px;
+	top: 560px;
+}
+
+#maindivision {
+	width: 1000px;
+	height: 637px;
+	background-color: black;
 }
