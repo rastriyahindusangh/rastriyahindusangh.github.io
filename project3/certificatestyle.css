@@ -6,6 +6,10 @@ html, body {
 	background-color: black;
 }
 
+#maindivision {
+	background-color: black;
+}
+
 #photo {
 	background-color: red;
 	width: 180px;
@@ -33,53 +37,63 @@ html, body {
 	top: 464px;
 	left: 109px;
 	width: 272px;
+	background-color: black;
 }
 
 #Name {
 	top: 503px;
 	left: 300px;
 	width: 280px;
+	background-color: black;
 }
 #Address {
 	top: 540px;
 	left: 80px;
 	width: 515px;
+	background-color: black;
 }
 #Paramarsh {
 	top: 648px;
 	left: 27px;
 	width: 220px;
+	background-color: black;
 }
 #District {
 	top: 685px;
 	left: 165px;
 	width: 237px;
+	background-color: black;
 }
 #Post {
 	top : 720px;
 	left: 30px;
 	width: 240px;
+	background-color: black;
 }
 #AnotherName {
 	top: 867px;
 	left: 30px;
 	width: 222px;
+	background-color: black;
 }
 
 #Last1, #Last2 {
 	position: absolute;
 	display: inline-block;
 	font-size: 18px;
+	background-color: black;
 }
 #Last1 {
 	top: 1103px;
 	left: 250px;
 	width: 220px;
+	background-color: black;
 }
 #Last2 {
 	top: 1130px;
 	left: 187px;
 	width: 170px;
+	background-color: black;
 }
 
 #psignred{
