@@ -2,11 +2,8 @@
 html, body {
 	margin: 0px;
 	width: 908px;
-}
-
-
-body {
-	color: red;
+	color: black;
+	background-color: black;
 }
 
 #photo {
@@ -27,7 +24,7 @@ body {
 	display: inline-block;
 }
 #FName, #Name, #Address, #Paramarsh, #District, #Post, #AnotherName, #Last1, #Last2 {
-	background-color: black;
+	background-color: transparent;
 	border: none;
 	color: white;
 }
