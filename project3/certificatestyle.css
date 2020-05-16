@@ -27,7 +27,7 @@ html, body {
 	position: absolute;
 	display: inline-block;
 	font-weight: bold;
-	color: rgba(255,255,255,1);
+	color: rgba(200,255,255,1);
 }
 #Phone ,#FName, #Name, #Address, #Paramarsh, #District, #Post, #AnotherName, #Last1, #Last2 {
 	background-color: transparent;
