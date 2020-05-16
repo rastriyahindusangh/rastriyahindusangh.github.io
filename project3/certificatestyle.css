@@ -27,12 +27,11 @@ html, body {
 	position: absolute;
 	display: inline-block;
 	font-weight: bold;
-	color: white;
+	color: rbga(255,255,255,1);
 }
 #Phone ,#FName, #Name, #Address, #Paramarsh, #District, #Post, #AnotherName, #Last1, #Last2 {
 	background-color: transparent;
 	border: none;
-	color: white;
 }
 
 #FName {
