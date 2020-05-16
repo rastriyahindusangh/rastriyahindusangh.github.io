@@ -27,7 +27,7 @@ html, body {
 	position: absolute;
 	display: inline-block;
 }
-#FName, #Name, #Address, #Paramarsh, #District, #Post, #AnotherName, #Last1, #Last2 {
+#Phone ,#FName, #Name, #Address, #Paramarsh, #District, #Post, #AnotherName, #Last1, #Last2 {
 	background-color: transparent;
 	border: none;
 	color: white;
@@ -36,7 +36,7 @@ html, body {
 #FName {
 	top: 464px;
 	left: 109px;
-	width: 272px;
+	width: 460px;
 	background-color: transparent;
 }
 
@@ -55,7 +55,7 @@ html, body {
 #Paramarsh {
 	top: 648px;
 	left: 27px;
-	width: 220px;
+	width: 400px;
 	background-color:transparent;
 }
 #District {
@@ -77,7 +77,7 @@ html, body {
 	background-color: transparent;
 }
 
-#Last1, #Last2 {
+#Last1, #Last2, #Phone {
 	position: absolute;
 	display: inline-block;
 	font-size: 18px;
@@ -93,6 +93,11 @@ html, body {
 	top: 1130px;
 	left: 187px;
 	width: 170px;
+	background-color: transparent;
+}
+#Phone {
+	top: 1159px;
+	left: 360px;
 	background-color: transparent;
 }
 
