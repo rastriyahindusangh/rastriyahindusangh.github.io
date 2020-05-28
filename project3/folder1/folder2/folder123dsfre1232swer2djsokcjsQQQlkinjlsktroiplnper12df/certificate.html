@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Certificate</title>
+	<link rel="stylesheet" type="text/css" href="certificatestyle.css">
+	<script type="text/javascript">
+		var loadFile = function(event) {
+			var image = document.getElementById('photo');
+			image.src = URL.createObjectURL(event.target.files[0]);
+			document.getElementById("lab").style.display = "none";
+		};
+		var printweb = function(){
+			document.getElementById("printbutton").style.display = "none";
+			document.getElementById("FName").placeholder = "";
+			document.getElementById("Name").placeholder = "";
+			document.getElementById("Address").placeholder = "";
+			document.getElementById("Paramarsh").placeholder = "";
+			document.getElementById("District").placeholder = "";
+			document.getElementById("Post").placeholder = "";
+			document.getElementById("AnotherName").placeholder = "";
+			document.getElementById("Last1").placeholder = "";
+			document.getElementById("Last2").placeholder = "";
+			document.getElementById("Phone").placeholder = "";
+			window.print();
+		}
+	</script>
+</head>
+<body>
+	<div id = "maindivision">
+		<img src="background3.png" id = "backgroundimage">
+		<img id = "photo">
+		<input type="text" name="fname" placeholder="Enter Text" id = "FName" style = "color: white">
+		<input type="text" name="name" placeholder="Enter Text" id = "Name" style = "color: white">
+		<input type="text" name="address" placeholder="Enter Text" id = "Address" style = "color: white">
+		<input type="text" name="paramarsh" placeholder="Enter Text" id = "Paramarsh" style = "background-color: transparent; color : white">
+		<input type="text" name="district" placeholder="Enter Text" id = "District" style = "color: white">
+		<input type="text" name="post" placeholder="Enter Text" id = "Post" style = "color: white">
+		<input type="text" name="anothername" placeholder="Enter Text" id = "AnotherName" style = "color: white">
+		<input type="text" name="last1" placeholder="Enter Text" id = "Last1" style = "color: white">
+		<input type="text" name="last2" placeholder="Enter Text" id = "Last2" style = "color: white">
+		<input type="text" name="last2" placeholder="Enter Text" id = "Phone" style = "color: white">
+		<img src="prmtr.png" id = "psignred">
+		<img src="sdhkr.png" id = "ssignred">
+		<img src="prmtb.png" id = "psignblack">
+		<input type="file"  accept="image/*" name="image" id="file" onchange="loadFile(event)" style="display: none;">
+		<label for="file" style="cursor: pointer;" id="lab">Upload Image</label>
+		<button id = "printbutton" onclick="printweb()">Print</button>
+	</div>
+</body>
+</html>

@@ -1,0 +1,186 @@
+
+html, body {
+	margin: 0px;
+	width: 908px;
+	color: black;
+	background-color: black;
+	-webkit-print-color-adjust: exact
+
+}
+
+#maindivision {
+	background-color: black;
+}
+
+#photo {
+	background-color: red;
+	width: 180px;
+	height: 245px;
+	position: absolute;
+	display: inline-block;
+	top: 133px;
+	left: 657px;
+	border: 5px solid black;
+	border-radius: 5px;
+}
+
+#FName, #Name, #Address, #Paramarsh, #District, #Post, #AnotherName {
+	font-size: 24px;
+	position: absolute;
+	display: inline-block;
+	font-weight: bold;
+	color: rgba(200,255,255,1);
+}
+#Phone ,#FName, #Name, #Address, #Paramarsh, #District, #Post, #AnotherName, #Last1, #Last2 {
+	background-color: transparent;
+	border: none;
+}
+
+#FName {
+	top: 464px;
+	left: 109px;
+	width: 460px;
+	background-color: transparent;
+}
+
+#Name {
+	top: 503px;
+	left: 300px;
+	width: 280px;
+	background-color: transparent;
+}
+#Address {
+	top: 540px;
+	left: 80px;
+	width: 515px;
+	background-color: transparent;
+}
+#Paramarsh {
+	top: 648px;
+	left: 27px;
+	width: 400px;
+	background-color:transparent;
+}
+#District {
+	top: 685px;
+	left: 165px;
+	width: 237px;
+	background-color: transparent;
+}
+#Post {
+	top : 720px;
+	left: 30px;
+	width: 240px;
+	background-color: transparent;
+}
+#AnotherName {
+	top: 867px;
+	left: 30px;
+	width: 222px;
+	background-color: transparent;
+}
+
+#Last1, #Last2, #Phone {
+	position: absolute;
+	display: inline-block;
+	font-size: 18px;
+	background-color: transparent;
+}
+#Last1 {
+	top: 1103px;
+	left: 250px;
+	width: 220px;
+	background-color: transparent;
+}
+#Last2 {
+	top: 1130px;
+	left: 187px;
+	width: 170px;
+	background-color: transparent;
+}
+#Phone {
+	top: 1159px;
+	left: 360px;
+	background-color: transparent;
+}
+
+#psignred{
+	width: 140px;
+	height: 160px;
+	display: inline-block;
+	position: absolute;
+	left: 90px;
+	top: 1125px;
+}
+#ssignred {
+	width: 123px;
+	height: 123px;
+	display: inline-block;
+	position: absolute;
+	left: 600px;
+	top: 1125px;
+}
+
+#psignblack {
+	display: inline-block;
+	position: absolute;
+	top: 296px;
+	left: 655px;
+	bottom: 600px;
+	width: 200px;
+	height: 200px;
+}
+#lab {
+	color: black;
+	display: inline-block;
+	position: absolute;
+	left: 700px;
+	top: 500px;
+	font-size: 20px;
+	border: 2px solid black;
+	border-radius: 0px;
+	padding: 10px 20px;
+	font-family: arial;
+	transition: color, background-color, border-radius;
+	transition-duration: 0.3s;
+}
+
+#lab:hover {
+	color: white;
+	background-color: black;
+	border-radius: 20px
+}
+
+#printbutton {
+	background-color: transparent;
+	border-width: 2px;
+	border-style: solid;
+	border-color: black;
+	font-size: 20px;
+	font-family: arial;
+	display: inline-block;
+	position: absolute;
+	left: 700px;
+	top: 580px;
+	padding: 8px 20px;
+	transition: color, background-color, border-radius;
+	transition-duration: 0.3s;
+
+}
+
+#printbutton:hover {
+	background-color: black;
+	color: white;
+	border-radius: 20px;
+}
+@media print {
+    #FName, #Name, #Address, #Paramarsh, #District, #Post, #AnotherName {
+	font-size: 24px;
+	position: absolute;
+	display: inline-block;
+	font-weight: bold;
+	color: rgba(255,255,255,1) !important;
+	-webkit-print-color-adjust: exact;
+
+	}
+}
